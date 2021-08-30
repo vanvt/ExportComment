@@ -31,6 +31,7 @@ namespace ConsoleApp3
                     try
 					
 					111
+					222
                     {
                         var client = new RestClient($"http://127.0.0.1:7990/rest/api/1.0/projects/STUD/repos/master/pull-requests/{i}/comments/{y}");
                         var request = new RestRequest(Method.GET);
